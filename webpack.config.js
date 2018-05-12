@@ -1,4 +1,4 @@
-/**
+/**  ddd
  * As our first step, we'll pull in the user's webpack.mix.js
  * file. Based on what the user requests in that file,
  * a generic config object will be constructed for us.
@@ -10,7 +10,7 @@ let ComponentFactory = require('./node_modules/laravel-mix/src/components/Compon
 new ComponentFactory().installAll();
 
 require(Mix.paths.mix());
-
+ 
 /**
  * Just in case the user needs to hook into this point
  * in the build process, we'll make an announcement.
